@@ -1,0 +1,37 @@
+# Ignore des fichiers copiés ou anciens
+*Copie.*
+*old.*
+.old
+.scss
+.sass-cache
+.wpress
+
+# Ignorer TOUS les fichiers .log
+*.log
+
+# WordPress
+/wp-admin/
+/wp-includes/
+
+# Fichiers spécifiques WordPress
+/.htaccess
+/license.txt
+/readme.html
+/wp-*.php
+sitemap.xml
+sitemap.xml.gz
+
+# Dossiers spécifiques WordPress
+/wp-content/ai1wm-backups/
+/wp-content/languages/
+/wp-content/mu-plugins/
+/wp-content/plugins/
+/wp-content/themes/studio-koukaki/assets/
+/wp-content/themes/studio-koukaki/sass/
+/wp-content/index.php
+/wp-includes/
+/index.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
